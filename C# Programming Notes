@@ -15,7 +15,7 @@ using System.Text;
 
 using System.Threading.Task;
 
-namespace ConsoleApplication
+namespace ConsoleApplication   //Package declaring syntax 
 
 {
 
@@ -317,7 +317,21 @@ String FileContent=File.ReadAllText(Filepath);
 
 Console.WriteLine(FileContent);
 
-
+👉️ PACKAGE IN C#
+The collection of classes and interface is called pakage
+declare package using using following syntax
+namespace Packagename
+{
+class classname
+{
+access modifier
+datamember and member function
+}
+}
+ Accessing package 
+pacckagename.classname objectname=new packagename.classconstructor();
+Objectname.memberfunction();
+objectname.datamember;
 
 👉️ OPERATORS
 
@@ -370,6 +384,7 @@ Console.WriteLine(FileContent);
 6...Assignment operators
 
 (=). Equal to
+
 
 Created by
 
